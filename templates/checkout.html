@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>LibraryBlock</title>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/static/css/libraryblock.css">
+    
+  </head>
+
+  <body>
+    <div class="Header">
+        <h1 id="Title">LibraryBlock - The Library Blockchain</h1>
+    </div>
+    <ul class="bar">
+        <li class="bar"><a href="/home">Home</a></li>
+        <li class="bar"><a href="/checkout">Checkout Book</a></li>
+        <li class="bar"><a href="/read">Read Chain</a></li>
+        <li class="bar"><a href="/generate">Create Key Pair</a></li>
+    </ul>
+    <div>
+    <br/><br/><br/><br/><br/>
+    <h3>Checkout Book!</h3>
+    <form action="/checkout" method="post" class="form">
+        <label for="bookname">Book Title:</label>
+        <input type="text" id="bookname" name="bookname"><br><br>
+        <label for="booknum">Book Number:</label>
+        <input type="text" id="booknum" name="booknum"><br><br>
+        <label for="membername">Member Name:</label>
+        <input type="text" id="membername" name="memname"><br><br>
+        <label for="IDnum">User ID:</label>
+        <input type="text" id="IDnum" name="IDnum"><br><br>
+        <label for="IDnum">Public Key:</label>
+        <input type="text" class="keyarea" id="IDnum" name="key"><br><br>
+        <input type="radio" id="check-in" name="check-in-out" value="check-in">
+        <label for="check-in">Check-in</label><br>
+        <input type="radio" id="check-out" name="check-in-out" value="check-out">
+        <label for="check-out">Check-out</label><br><br/>
+        <input type="submit" value="Submit">
+    </form> 
+    
+    </div>
+    <div class="Bottom">
+      <p>Designed by Ryan Manzie, Shiv Mangal, and Blake Whiting - 2022</p>
+    </div>
+  </body>
+ 
+</html>
