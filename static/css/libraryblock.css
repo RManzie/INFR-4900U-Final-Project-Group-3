@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        background-color: #fbad41;
+        color: #ffffff;
+    }
+    
+    div.Header {
+      font-size: 22pt;
+      height: 175px;
+      border: 18px #003682;
+      margin: 0;
+      text-align: center;
+      font-style: impact;
+      background-color: #003682;
+      border-style: solid;
+      color: #ffffff;
+    }
+    
+    div.Bottom {
+        background-color: #003682;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        font-size: 16px;
+        text-align: center;
+        width: 100%;
+        height: 90px;
+        padding: 0px;
+        border-style: solid;
+        color: #ffffff;
+        border-color: #f6821f;
+        border-width: 4px;
+      }
+    
+    ul.bar {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      height: 70px;
+      width: 100%;
+      display: inline-block;
+      background-color: #003682;
+      display: block;
+    }
+    
+    li.bar {
+        float: left;
+        background-color: #003682;
+    }
+    
+    li.bar a {
+        list-style-type: none;
+        display: block;
+        padding: 12px 70px;
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 23px;
+      }
+    
+    li.bar a:hover {
+        background-color: #f6821f;
+        color: #ffffff;
+        border-radius: 25px;
+        
+      }
+
+    .form{
+      margin: 5%;
+      font-size: 20px;
+      font-weight: bold;
+      
+    }
+    
+    p{
+      margin: 20px;
+      font-size: 18px;
+    }
+    
+    h3{
+      margin: 20px;
+      font-size: 25px;
+    }
+    
+    img{
+      margin: 10px;
+      border-radius: 15%;
+    }
+
+    input[type=text] {
+      border: 2px solid #003682;
+      border-radius: 4px;
+    }
+
+    input[type=button], input[type=submit], input[type=reset] {
+      background-color: #003682;
+      border: none;
+      color: #ffffff;
+      padding: 20px 35px;
+      border-radius: 20px;
+      text-decoration: none;
+      margin: 4px 2px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .footer{
+        background-color: #003682;
+        color: white;
+        border-style: solid;
+        padding: 10px;
+        text-align: center;
+    }
+
+    
+    @media(max-width: 600px) {
+        .bar {width: 100%; padding-top: 10px}
+    }
+    
